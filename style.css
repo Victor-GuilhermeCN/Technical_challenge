@@ -1,0 +1,130 @@
+.button {
+    width: 90px;
+    height: 30px;
+    border-top: 1px solid #ededed;
+    background: #dedede;
+    background: -webkit-gradient(linear, left top, left bottom, from(#747a7d), to(#dedede));
+    background: -webkit-linear-gradient(top, #747a7d, #dedede);
+    background: -moz-linear-gradient(top, #747a7d, #dedede);
+    background: -ms-linear-gradient(top, #747a7d, #dedede);
+    background: -o-linear-gradient(top, #747a7d, #dedede);
+    padding: 2px 4px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: #120512;
+    font-size: 11px;
+    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.button:hover {
+    border-top-color: #5c5d5e;
+    background: #5c5d5e;
+    color: #4a474a;
+}
+
+.button:active {
+    border-top-color: #232b30;
+    background: #232b30;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone {
+    width: 260px;
+    border: 1px solid #f0f0f5;
+    padding: 50px 20px;
+    border-radius: 40px;
+    background-color: #4169E1;
+    -webkit-box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.phone .phone-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.phone .phone-header h1 {
+    width: 250px;
+    height: 70px;
+    border: 1px solid black;
+    margin-bottom: 0px;
+    border-radius: 15px 15px 0px 0px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.phone .phone-header input {
+    width: 242px;
+    height: 16px;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 15px 15px;
+    font-size: 15px;
+    color: white;
+    margin-right: 25px;
+    background-color: #4f4f4f;
+    text-align: center;
+}
+
+.phone .phone-header input2 {
+    width: 240px;
+    height: 70px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #4F4F4F;
+    text-align: center;
+}
+
+.phone .phone-header button {
+    width: 90px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.phone .phone-body .button-row {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.phone .phone-body .button-row button {
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.phone-body {
+    text-align: center;
+}
+
+.phone-body>button {
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+#result {
+    background-color: #4F4F4F;
+    color-size: #FFFFFF;
+}

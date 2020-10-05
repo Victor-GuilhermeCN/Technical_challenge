@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accenture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+
+    <div class="container">
+        <div class="content">
+            <div class="phone">
+
+
+
+                <div class="phone-header">
+                    <div class="display">
+                        <h1 id="result"></h1>
+                        <input type="text" name="text" id="input">
+                    </div>
+                    <br>
+                    <button class="button" id="enter">Enter</button>
+                </div>
+                <div class="phone-body">
+                    <div class="button-row">
+                        <button class="button" value="1" onclick="cleanInput()">1 - DEL</button>
+                        <button class="button" value="2" onclick="addButtonToInput(this)">2 - a b c</button>
+                        <button class="button" value="3" onclick="addButtonToInput(this)">3 - d e f</button>
+                    </div>
+                    <div class="button-row">
+                        <button class="button" value="4" onclick="addButtonToInput(this)">4 - g h i</button>
+                        <button class="button" value="5" onclick="addButtonToInput(this)">5 - j k l</button>
+                        <button class="button" value="6" onclick="addButtonToInput(this)">6 - m n o</button>
+                    </div>
+                    <div class="button-row">
+                        <button class="button" value="7" onclick="addButtonToInput(this)">7 - p q r s </button>
+                        <button class="button" value="8" onclick="addButtonToInput(this)">8 - t u v</button>
+                        <button class="button" value="9" onclick="addButtonToInput(this)">9 - w x y z</button>
+                    </div>
+                    <button class="button" onclick="cleanResult()">0 - CLEAN</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/script.js"></script>
+
+</html>
